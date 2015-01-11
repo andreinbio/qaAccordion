@@ -1,0 +1,19 @@
+#qaAccordion_wrapper {
+	
+}
+.qa_item {
+	margin-bottom:20px;
+	border-radius:3px;
+	overflow:hidden;
+}
+.qa_question {
+	padding:5px 10px;
+	background:blue;
+	color:#fff;
+	cursor: pointer;
+}
+.qa_answer {
+	padding:10px;
+	background: #fff;
+	display:none;
+}
