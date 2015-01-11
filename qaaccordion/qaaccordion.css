@@ -1,6 +1,4 @@
-#qaAccordion_wrapper {
-	
-}
+
 .qa_item {
 	margin-bottom:20px;
 	border-radius:3px;
@@ -11,7 +9,14 @@
 	background:blue;
 	color:#fff;
 	cursor: pointer;
+	position:relative;
 }
+.qa_question .fa {
+	position:absolute;
+	right:10px;
+	top:8px;
+}
+
 .qa_answer {
 	padding:10px;
 	background: #fff;
