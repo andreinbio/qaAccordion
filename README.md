@@ -35,9 +35,13 @@ These are the settings that you can modify to make use of your own classes:
 	$("#qaAccordion").qaAccordion({
 		question_container: ".qa_question",
 		answer_container: ".qa_answer",
-		slide_speed: "fast"
+		slide_speed: "fast",
+		fa_closed: "fa-plus",
+		fa_opend: "fa-minus"
 	});
 </code></pre>
+
+<code>fa_closed</code> and <code>fa_opned</code> controls the font awesome that you wanto to display when the block is closed or oppend. You can use any font awesome font you want. This library includes the fonts awesome by defauld.
 
 If you have any other questions please let me know.
 
