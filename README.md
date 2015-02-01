@@ -19,7 +19,7 @@ The basic html is as fallows:
 </code></pre>
 
 In its default state you must use this exact markup with its classes.
-It comes with and .css file that styles the elements.
+It comes with a css file that styles the elements.
 
 To activate the accordion effect just call the accordion function on the wrapper that holds your entire queston-answer blocks like this:
 
@@ -29,7 +29,7 @@ In this example I used the default wrapper.
 
 Of course you can have you own classes that will work with this plugin.
 
-This are the settings that you can modify to make use of your own classes:
+These are the settings that you can modify to make use of your own classes:
 
 <pre><code>
 	$("#qaAccordion").qaAccordion({
