@@ -37,11 +37,11 @@ These are the settings that you can modify to make use of your own classes:
 		answer_container: ".qa_answer",
 		slide_speed: "fast",
 		fa_closed: "fa-plus",
-		fa_opend: "fa-minus"
+		fa_opened: "fa-minus"
 	});
 </code></pre>
 
-<code>fa_closed</code> and <code>fa_opned</code> controls the font awesome that you wanto to display when the block is closed or oppend. You can use any font awesome font you want. This library includes the fonts awesome by defauld.
+<code>fa_closed</code> and <code>fa_opened</code> controls the font awesome that you want to display when the block is closed or opened. You can use any font awesome font you want. This library includes the fonts awesome by default.
 
 If you have any other questions please let me know.
 

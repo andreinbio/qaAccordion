@@ -7,7 +7,7 @@
 			answer_container: ".qa_answer",
 			slide_speed: "fast",
 			fa_closed: "fa-plus",
-			fa_opend: "fa-minus",
+			fa_opened: "fa-minus",
 			fa_path:"qaaccordion/font-awesome-4.2.0/css/font-awesome.min.css"
 		}, options);
 		
@@ -23,16 +23,16 @@
 			if ($(this).hasClass("qa_on")) {
 				
 				$(this).next(settings.answer_container).slideToggle(settings.slide_speed, function () {
-					$(this).prev(settings.question_container).toggleClass("qa_on qa_off").children(".fa").toggleClass(settings.fa_opend+" "+settings.fa_closed);
+					$(this).prev(settings.question_container).toggleClass("qa_on qa_off").children(".fa").toggleClass(settings.fa_opened+" "+settings.fa_closed);
 				});
 				
 			} else {
 				
 				$(settings.question_container).filter(".qa_on").next(settings.answer_container).slideUp(settings.slide_speed, function () {
-						$(this).prev(".qa_on").toggleClass("qa_on qa_off").children(".fa").toggleClass(settings.fa_closed+" "+settings.fa_opend);
+						$(this).prev(".qa_on").toggleClass("qa_on qa_off").children(".fa").toggleClass(settings.fa_closed+" "+settings.fa_opened);
 					});
 				$(this).next(settings.answer_container).slideToggle(settings.slide_speed, function () {
-					$(this).prev(settings.question_container).toggleClass("qa_on qa_off").children(".fa").toggleClass(settings.fa_closed+" "+settings.fa_opend);
+					$(this).prev(settings.question_container).toggleClass("qa_on qa_off").children(".fa").toggleClass(settings.fa_closed+" "+settings.fa_opened);
 				});
 			}
 				
