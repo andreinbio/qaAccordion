@@ -8,6 +8,7 @@
 			slide_speed: "fast",
 			fa_closed: "fa-plus",
 			fa_opened: "fa-minus",
+			fa: true,
 			fa_path:"qaaccordion/font-awesome-4.2.0/css/font-awesome.min.css"
 		}, options);
 		
@@ -16,7 +17,9 @@
 			$("head").append(cssLink); 
 		};
 		
-		loadCSS(settings.fa_path);
+		if( settings.fa ) {
+			loadCSS(settings.fa_path);
+		}
 		
 		//the function ...
 		this.find(settings.question_container).addClass("qa_off").append("<i class='fa "+settings.fa_closed+"'></i>").click(function () {
